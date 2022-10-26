@@ -1,0 +1,30 @@
+/*CSS reset*/
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    color: black;
+}
+
+main {
+    margin: 150px;
+}
+
+div {
+    background: grey;
+    padding: 25px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center
+}
+
+h1 {
+    text-align: center;
+}

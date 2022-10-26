@@ -1,0 +1,80 @@
+/*CSS reset*/
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: darkorange;
+    color: white;
+}
+
+main {
+    margin: 40px;
+}
+
+form > h1 {
+    color: white;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+form > p >a {
+    color: white;
+}
+
+#login {
+    color: black;
+    text-align: center;
+}
+
+form > p >a:hover {
+    color: navy;
+}
+
+form {
+    background: darkorange;
+    padding: 25px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    opacity: 0.7;
+}
+
+input ::placeholder {
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+input {
+    justify-content: center;
+    display: inline-flex;
+}
+
+#input {
+    justify-content: center;
+    margin-left: 160px;
+}
+
+#submit {
+    background-color: white; 
+    margin: auto;
+    color: black;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+#submit:hover {
+    color: darkblue;
+}
