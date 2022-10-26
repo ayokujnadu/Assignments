@@ -1,2 +1,0 @@
-# Assignments
-ZuriBoard Assignment Repo
