@@ -1,0 +1,74 @@
+/*CSS reset*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    padding-top: 5%;
+}
+
+main {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#sedans {
+    background-color: hsl(31, 77%, 52%);
+    padding-top: 80px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 100px;
+}
+
+#suvs {
+    background-color: hsl(184, 100%, 22%);
+    padding-top: 80px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 100px;
+}
+
+#luxury {
+    background-color: hsl(179, 100%, 13%);
+    padding-top: 80px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 100px;
+}
+
+h1{
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+}
+
+button {
+    color: hsl(0, 0%, 95%); 
+    border: 1px dotted;
+    border-radius: 25px;
+    margin: auto;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+button:hover {
+    color: darkblue;
+}
+
+#img1 > #img2 > #img3 {
+    align-items: left;
+}
